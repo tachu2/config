@@ -22,7 +22,13 @@ config.window_frame = {
 
 config.window_background_opacity = 0.7
 -- config.text_background_opacity = 0.7
+--
+use_fancy_tab_bar = false
 
+config.window_frame = {
+	inactive_titlebar_bg = "none",
+	active_titlebar_bg = "none",
+}
 -- Leader Key (Ctrl + n)
 config.leader = { key = "n", mods = "CTRL", timeout_milliseconds = 1000 }
 
